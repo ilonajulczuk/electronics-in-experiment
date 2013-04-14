@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.10)  13 APR 2013 15:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.10)  14 APR 2013 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,6 +580,35 @@ File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 64.
 
+<obrazki/batman1.PNG, id=1, 353.06906pt x 359.09157pt>
+File: obrazki/batman1.PNG Graphic file (type png)
+
+<use obrazki/batman1.PNG>
+Package pdftex.def Info: obrazki/batman1.PNG used on input line 87.
+(pdftex.def)             Requested size: 353.06819pt x 359.09068pt.
+
+<obrazki/belzebub1bialy.png, id=3, 347.79938pt x 356.0803pt>
+File: obrazki/belzebub1bialy.png Graphic file (type png)
+
+<use obrazki/belzebub1bialy.png>
+Package pdftex.def Info: obrazki/belzebub1bialy.png used on input line 94.
+(pdftex.def)             Requested size: 347.79852pt x 356.07944pt.
+
+<obrazki/trzebieszow1bialy.png, id=4, 339.51843pt x 356.83313pt>
+File: obrazki/trzebieszow1bialy.png Graphic file (type png)
+
+<use obrazki/trzebieszow1bialy.png>
+Package pdftex.def Info: obrazki/trzebieszow1bialy.png used on input line 101.
+(pdftex.def)             Requested size: 339.5176pt x 356.83224pt.
+
+<obrazki/batman1prostybialymod.png, id=5, 213.79875pt x 233.37187pt>
+File: obrazki/batman1prostybialymod.png Graphic file (type png)
+
+<use obrazki/batman1prostybialymod.png>
+Package pdftex.def Info: obrazki/batman1prostybialymod.png used on input line 1
+19.
+(pdftex.def)             Requested size: 213.79822pt x 233.37129pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 13.59999pt.
@@ -595,24 +624,83 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] (./dorszzmaslowilkiem.aux) ) 
+[2 <./obrazki/batman1.PNG>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3 <./obrazki/belzebub1bialy.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4 <./obrazki/trzebieszow1bialy.png>]
+<obrazki/bezelprostybialy.png, id=27, 344.78813pt x 258.21469pt>
+File: obrazki/bezelprostybialy.png Graphic file (type png)
+
+<use obrazki/bezelprostybialy.png>
+Package pdftex.def Info: obrazki/bezelprostybialy.png used on input line 126.
+(pdftex.def)             Requested size: 344.78728pt x 258.21405pt.
+
+<obrazki/tszebieszowprostzbialy.png, id=28, 347.79938pt x 257.46187pt>
+File: obrazki/tszebieszowprostzbialy.png Graphic file (type png)
+
+<use obrazki/tszebieszowprostzbialy.png>
+Package pdftex.def Info: obrazki/tszebieszowprostzbialy.png used on input line 
+133.
+(pdftex.def)             Requested size: 347.79852pt x 257.46123pt.
+
+<obrazki/maslowilkcialobialy.png, id=29, 349.305pt x 357.58594pt>
+File: obrazki/maslowilkcialobialy.png Graphic file (type png)
+
+<use obrazki/maslowilkcialobialy.png>
+Package pdftex.def Info: obrazki/maslowilkcialobialy.png used on input line 147
+.
+(pdftex.def)             Requested size: 349.30414pt x 357.58505pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[5 <./obrazki/batman1prostybialymod.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[6 <./obrazki/bezelprostybialy.png> <./obrazki/tszebieszowprostzbialy.png>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7 <./obrazki/maslowilkcialobialy.png>] (./dorszzmaslowilkiem.aux) ) 
 Here is how much of TeX's memory you used:
- 3759 strings out of 495063
- 49462 string characters out of 3182673
- 113095 words of memory out of 3000000
- 6857 multiletter control sequences out of 15000+200000
+ 3798 strings out of 495063
+ 50570 string characters out of 3182673
+ 114095 words of memory out of 3000000
+ 6886 multiletter control sequences out of 15000+200000
  33711 words of font info for 32 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 38i,10n,43p,251b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ma
-thsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-
-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public
-/lm/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share
-/texmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on dorszzmaslowilkiem.pdf (2 pages, 80594 bytes).
+ 38i,10n,43p,251b,301s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share
+/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/d
+vips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr
+/share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/
+type1/public/lm/lmr9.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pf
+b>
+Output written on dorszzmaslowilkiem.pdf (7 pages, 140933 bytes).
 PDF statistics:
- 29 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
