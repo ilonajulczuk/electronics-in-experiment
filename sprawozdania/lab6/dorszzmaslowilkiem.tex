@@ -9,7 +9,7 @@
 \usepackage{float}
 \usepackage{array}
 
-\usepackage{mathtools}
+%\usepackage{mathtools}
 
 
 \setlength{\textheight}{23.5cm}
@@ -62,12 +62,10 @@ zbadanie własności filtrów i zbudowanie własnego filtra według wcześniej s
 Hardware:
 \begin{itemize}
 \item komputer PC
-\item elvis II+
+\item Elvis II+
 \item kondensatory 10 nF
-\item opamp jakiś tam
-\item ta ciekawa płytka
+\item wzmacniacz operacyjny OPA2340
 \item potencjometry cyfrowe
-\item przewody
 \end{itemize}
 
 Software:
@@ -78,25 +76,60 @@ Software:
 
 \section{Wstęp teoretyczny}
 
+Filtrem elektrycznym możemy nazwać każdy układ elektroniczny, który może modyfikować sygnał wejściowy. Najczęściej stosuje się filtry do wygaszania częstotkiwości, których nie chcemy widzieć w układach. Z grubsza filty można podzielić na: 
+\begin{itemize}
+  \item dolnoprzepustowe (lowpass) 
+  \item górnoprzepustowe (highpass)
+  \item środkowoprzepustowe (bandpass)
+  \item środkowozaporowe (bandstop)
+\end{itemize}
+Wyidealizowanie działanie tych filtrów przedstawiona na poniższym obrazku zaczerpniętym ze skryptu ,,Ćwiczenia laboratoryjne z elektorniki''.  
+
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width=14cm]{filtry.png}
+
+    \caption{ Wydealizowane charakterystyki różnych typów filtrów elektycznych}
+  \end{center}
+\end{figure}
+
+Część charakterystyki, która jest przepuszczana to \textbf{pasmo przenoszenia filtru}, natomiast ta część tłumiona jest nazywana \textbf{pasmem zaporowym}. Dla filtrów górno i dolnoprzepustowych definiuje się także częstotlwość graniczną $ \omega_g$, dla której wzmocnienie filtru spada o 3dB. Zaś dla filtrów środkowoprzepustowuch i zaporowych określamy częstotliwość środkową $ \omega_0$ i pasmo filtru $\Delta \omega$, których stosunek to tak zwana dobroć $ Q=\frac {\omega_0}{\Delta \omega}$. 
+
+W doświadczeniu mieliśmy okazję zapoznać się z kilkoma rodzajami filtrów. Ich przykładowe charakterystyku przedstawiam na poniższym rysunku, zaczerpniętego ze skryptu ,,Ćwiczenia laboratoryjne z elektorniki''. 
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width=8cm]{charakterystyki.png}
+
+    \caption{ Przykładowe charakterystyki filtrów }
+  \end{center}
+\end{figure} 
+
+W zależności od oczekiwanych przez nas efektów w układach możemy stosować odpowiednie filtry. 
+Chcąc uzyskać najbardziej płaską charakterystykę w paśmie przenoszenia stosujemy filtry dające charakterystykę Butterwortha. Aby zapewnić maksymalne tłumienie w paśmie zaporowym bierzemy pod uwagę charakterystykę Czebyszewa. Jej wadą jest to, że ma zniekształcone pasmo przenoszenia. Inne właściwości ma z kolei charakterystyka Bessela, która zapewnia maksymalnie spłaszczoną charakterystykę opóźnienia grupowego, a także najmniej zniekształca sygnał w paśnie przenoszenia. Jego wadą jest jedynie słabe tłumienie w paśmie zaporowym.  
+
+
+
 \section{Charakterystyki amplitudowe bodego}
 
 Poniżej przedstawiamy charakterystyki amplitudowe i fazowe trzech filtrów drugiego stopnia, które zbudowaliśmy.
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics{obrazki/batman1.PNG}
 \end{center}
 \caption{filtr Butterwortha}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics{obrazki/belzebub1bialy.png}
 \end{center}
 \caption{filtr Bessela}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics{obrazki/trzebieszow1bialy.png}
 \end{center}
@@ -114,21 +147,21 @@ gdybyśmy wykreślili wykresy od częstotliwości.
 \section{Odpowiedzi na skok jednostkowy}
 
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics{obrazki/batman1prostybialymod.png}
 \end{center}
 \caption{filtr Butterwortha}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics{obrazki/bezelprostybialy.png}
 \end{center}
 \caption{filtr Bessel'a}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics{obrazki/tszebieszowprostzbialy.png}
 \end{center}
@@ -142,7 +175,7 @@ Obliczenia i wykreślone charakterystyki dołączamy jako osobny załącznik pod
 Znajdują się tam wszystkie niezbędne informacje.
 \subsection{Zmierzona charakterystyka}
 
-\begin{figure}
+\begin{figure}[H]
 \begin{center}
 \includegraphics{obrazki/maslowilkcialobialy.png}
 \end{center}
