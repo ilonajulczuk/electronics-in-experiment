@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.10)  17 APR 2013 03:10
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.10)  17 APR 2013 11:45
 entering extended mode
  %&-line parsing enabled.
 **dorszzmaslowilkiem.tex
@@ -450,74 +450,103 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <charakterystyki.png, id=10, 370.38374pt x 250.9375pt>
 File: charakterystyki.png Graphic file (type png)
 
-<use charakterystyki.png> [2 <./filtry.png (PNG copy)> <./charakterystyki.png (
-PNG copy)>] <obrazki/batman1.PNG, id=20, 353.06906pt x 359.09157pt>
+<use charakterystyki.png>
+Underfull \hbox (badness 10000) in paragraph at lines 109--114
+
+ []
+
+[2 <./filtry.png (PNG copy)> <./charakterystyki.png (PNG copy)>]
+<obrazki/czasy.png, id=20, 261.97874pt x 203.25937pt>
+File: obrazki/czasy.png Graphic file (type png)
+ <use obrazki/czasy.png>
+<obrazki/batman1.PNG, id=22, 353.06906pt x 359.09157pt>
 File: obrazki/batman1.PNG Graphic file (type png)
 
-<use obrazki/batman1.PNG>
-<obrazki/belzebub1bialy.png, id=22, 347.79938pt x 356.0803pt>
+<use obrazki/batman1.PNG> [3 <./obrazki/czasy.png>]
+<obrazki/belzebub1bialy.png, id=27, 347.79938pt x 356.0803pt>
 File: obrazki/belzebub1bialy.png Graphic file (type png)
 
-<use obrazki/belzebub1bialy.png> [3 <./obrazki/batman1.PNG>]
-<obrazki/trzebieszow1bialy.png, id=27, 339.51843pt x 356.83313pt>
+<use obrazki/belzebub1bialy.png>
+<obrazki/trzebieszow1bialy.png, id=28, 339.51843pt x 356.83313pt>
 File: obrazki/trzebieszow1bialy.png Graphic file (type png)
 
-<use obrazki/trzebieszow1bialy.png> [4 <./obrazki/belzebub1bialy.png> <./obrazk
-i/trzebieszow1bialy.png>]
-<obrazki/batman1prostybialymod.png, id=34, 213.79875pt x 233.37187pt>
+<use obrazki/trzebieszow1bialy.png> [4 <./obrazki/batman1.PNG> <./obrazki/belze
+bub1bialy.png>]
+Overfull \hbox (11.16946pt too wide) in paragraph at lines 155--156
+\T1/lmr/m/n/10.95 wa¢. Na pod-stawie wykresów fa-zowych wykre±lil-i±my wykresy 
+opó¹nienia grupowego. Niepewno±ci
+ []
+
+<obrazki/bworw.png, id=34, 986.68625pt x 584.1825pt>
+File: obrazki/bworw.png Graphic file (type png)
+ <use obrazki/bworw.png>
+<obrazki/bw.png, id=35, 973.6375pt x 518.93875pt>
+File: obrazki/bw.png Graphic file (type png)
+ <use obrazki/bw.png>
+<obrazki/cw.png, id=36, 991.705pt x 601.24625pt>
+File: obrazki/cw.png Graphic file (type png)
+ <use obrazki/cw.png> [5 <./obrazki/trzebieszow1bialy.png> <./obrazki/bworw.png
+>]
+<obrazki/batman1prostybialymod.png, id=42, 213.79875pt x 233.37187pt>
 File: obrazki/batman1prostybialymod.png Graphic file (type png)
 
-<use obrazki/batman1prostybialymod.png>
-<obrazki/bezelprostybialy.png, id=35, 344.78813pt x 258.21469pt>
+<use obrazki/batman1prostybialymod.png> [6 <./obrazki/bw.png> <./obrazki/cw.png
+>] <obrazki/bezelprostybialy.png, id=48, 344.78813pt x 258.21469pt>
 File: obrazki/bezelprostybialy.png Graphic file (type png)
 
-<use obrazki/bezelprostybialy.png> [5 <./obrazki/batman1prostybialymod.png> <./
-obrazki/bezelprostybialy.png>]
-<obrazki/tszebieszowprostzbialy.png, id=41, 347.79938pt x 257.46187pt>
+<use obrazki/bezelprostybialy.png>
+<obrazki/tszebieszowprostzbialy.png, id=49, 347.79938pt x 257.46187pt>
 File: obrazki/tszebieszowprostzbialy.png Graphic file (type png)
 
-<use obrazki/tszebieszowprostzbialy.png>
-<obrazki/maslowilkcialobialy.png, id=42, 349.305pt x 357.58594pt>
+<use obrazki/tszebieszowprostzbialy.png> [7 <./obrazki/batman1prostybialymod.pn
+g> <./obrazki/bezelprostybialy.png>]
+<obrazki/maslowilkcialobialy.png, id=56, 349.305pt x 357.58594pt>
 File: obrazki/maslowilkcialobialy.png Graphic file (type png)
 
-<use obrazki/maslowilkcialobialy.png> [6 <./obrazki/tszebieszowprostzbialy.png>
+<use obrazki/maslowilkcialobialy.png> [8 <./obrazki/tszebieszowprostzbialy.png>
 ]
-<obrazki/maslowilkcialoliniabialyiulepszony.png, id=47, 344.78813pt x 175.40532
+<obrazki/maslowilkcialoliniabialyiulepszony.png, id=61, 344.78813pt x 175.40532
 pt>
 File: obrazki/maslowilkcialoliniabialyiulepszony.png Graphic file (type png)
  <use obrazki/maslowilkcialoliniabialyiulepszony.png>
-<obrazki/teo_przepis.png, id=48, 887.56593pt x 339.51843pt>
+<obrazki/teo_przepis.png, id=62, 887.56593pt x 339.51843pt>
 File: obrazki/teo_przepis.png Graphic file (type png)
 
 <use obrazki/teo_przepis.png>
-<obrazki/maslowilkbialy.png, id=49, 346.29375pt x 258.21469pt>
+<obrazki/maslowilkbialy.png, id=63, 346.29375pt x 258.21469pt>
 File: obrazki/maslowilkbialy.png Graphic file (type png)
 
-<use obrazki/maslowilkbialy.png> [7 <./obrazki/maslowilkcialobialy.png> <./obra
+<use obrazki/maslowilkbialy.png> [9 <./obrazki/maslowilkcialobialy.png> <./obra
 zki/maslowilkcialoliniabialyiulepszony.png> <./obrazki/teo_przepis.png>]
-[8 <./obrazki/maslowilkbialy.png>] (./dorszzmaslowilkiem.aux) ) 
+<obrazki/nbw.png, id=70, 991.705pt x 540.0175pt>
+File: obrazki/nbw.png Graphic file (type png)
+ <use obrazki/nbw.png> [10 <./obrazki/maslowilkbialy.png> <./obrazki/nbw.png>]
+Overfull \hbox (1.2735pt too wide) in paragraph at lines 285--286
+[]\T1/lmr/m/n/10.95 Jak mo»na za-ob-ser-wowa¢, wyniki do±wiadczalne$[]$ nasze r
+ozwa»a-nia poprzedza-
+ []
+
+[11] (./dorszzmaslowilkiem.aux) ) 
 Here is how much of TeX's memory you used:
- 2136 strings out of 495061
- 26451 string characters out of 1182620
+ 2158 strings out of 495061
+ 26859 string characters out of 1182620
  78938 words of memory out of 3000000
- 5275 multiletter control sequences out of 15000+50000
- 39721 words of font info for 34 fonts, out of 3000000 for 9000
+ 5293 multiletter control sequences out of 15000+50000
+ 36706 words of font info for 33 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,11n,43p,598b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texm
-f/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{
-/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/d
-vips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/
-share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/l
-mr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/p
-ublic/lm/lmsy10.pfb>
-Output written on dorszzmaslowilkiem.pdf (8 pages, 334260 bytes).
+ 25i,10n,43p,598b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc
+}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc
+/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/sh
+are/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/t
+exmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+r10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on dorszzmaslowilkiem.pdf (11 pages, 352285 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 113 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

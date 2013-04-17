@@ -108,6 +108,22 @@ W doświadczeniu mieliśmy okazję zapoznać się z kilkoma rodzajami filtrów. 
 
 W zależności od oczekiwanych przez nas efektów w układach możemy stosować odpowiednie filtry. 
 Chcąc uzyskać najbardziej płaską charakterystykę w paśmie przenoszenia stosujemy filtry dające charakterystykę Butterwortha. Aby zapewnić maksymalne tłumienie w paśmie zaporowym bierzemy pod uwagę charakterystykę Czebyszewa. Jej wadą jest to, że ma zniekształcone pasmo przenoszenia. Inne właściwości ma z kolei charakterystyka Bessela, która zapewnia maksymalnie spłaszczoną charakterystykę opóźnienia grupowego, a także najmniej zniekształca sygnał w paśnie przenoszenia. Jego wadą jest jedynie słabe tłumienie w paśmie zaporowym.  
+\newline
+\newline
+W naszych układach mieliśmy też przyjemność zaobserwować charaktetystykę przebiegów przejściowych, na podstawie sygnały skokowego. Wygląda ona mniej więcej tak jak ta pod spodem. 
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{obrazki/czasy.png}
+\end{center}
+\caption{charakterystyka Układu w odpowiedzi na sygnał skokowy}
+\end{figure}
+
+Gdzie $t_p$ - czas opoźninia, to czas po jakim sygnał osiąga 50 \% swojej wartosci. $ t_r$ -czas narastania, to czas wzrostu odpowiedzi z 10\% do 90\%.   $U_p$ to maksymalne przeregulowanie, które określa stabilnosć względną układu. Duża wartość tego parametru jest raczej niepożądana. $T_p $- czas ustalania, to czas potrzebny do tego, aby przjściowa odpowiedź skokowa pozostała w pewniej określonej strefie dokładności od wartości ustalonej - do ok 5\%. 
+
+Dzięki analizatorowi Bodego obserwowaliśmy też charakerystyki fazowe i amplitudowe naszych układów. Dzięki temu możemy policzyć zmiany fazy w czasie, co da nam funkcję $t_d(f)$ - opoźnienia grupowego dla danego układu.  
+$$ t_d(f) = - \frac {\mbox{d}\varphi } {\mbox{d}f} $$ 
+
 
 
 
@@ -136,15 +152,31 @@ Poniżej przedstawiamy charakterystyki amplitudowe i fazowe trzech filtrów drug
 \caption{filtr Czebyszewa}
 \end{figure}
 
+Możemy na podstawie tych charakterystyk stwierdzić, ze właściwości jakie przewidywaliśmy we wstępie są zdecydowanie potwierdzone drogą doświadczalną. Nie Będziemy więc ich przepisywać. Na podstawie wykresów fazowych wykreśliliśmy wykresy opóźnienia grupowego. Niepewności powstałe w ten sposób są duże ze względu na spore niedokładności w odczycie z ekranu wartości, też skończonej gruności krzywej z amalizatora Bodego. 
 
-\begin{LARGE}
-Przydałoby się na te odpowiedzi dłużej popatrzeć i na przykład
-pomocą systemowej linijki zmierzyć jaki jest spadek i czy wartości
-pokrywają się nam z wyliczeniami.
 
-Możemy też zasymulować te charakterystyki i pezpośrednio porównać,
-gdybyśmy wykreślili wykresy od częstotliwości.
-\end{LARGE}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{obrazki/bworw.png}
+\end{center}
+\caption{Opóźnienie grupowe filtru Butterwortha}
+\end{figure}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{obrazki/bw.png}
+\end{center}
+\caption{Opóźnienie grupowe filtru Bessela}
+\end{figure}
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{obrazki/cw.png}
+\end{center}
+\caption{Opóźnienie grupowe filtru Czebyszewa}
+\end{figure}
+
+Mimo dużych niepewności, widać z tych wykresów, dobrze przy jakich częstotliwościach opóźnienie jest najwyższe. Co także daje do myślenia przy projektowaniu filtrów. 
+
+
 
 \section{Odpowiedzi na skok jednostkowy}
 
@@ -208,9 +240,9 @@ Znajdują się tam wszystkie niezbędne informacje.
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=8cm]{obrazki/teo_przepis.png}
+\includegraphics[width=11cm]{obrazki/teo_przepis.png}
 \end{center}
-\caption{Krzywa narysowana w programie Gnumeric fazowa filtru Butterworth'a trzeciego rzędu }
+\caption{Krzywa fazowa filtru Butterworth'a trzeciego rzędu  narysowana w programie Gnumeric}
 \end{figure}
 
 Możemy zaobserwować, że te rysunki całkiem dobrze obrazują wyliczone przez nas teoretycznie krzywe.
@@ -231,18 +263,28 @@ $$ U_p= 15,7 \  \% $$
 Tym razem możemy też zaobserwować $T_p$. Na poprzednich odpowiedziach na skok jednostkowy nie dało się zaobserwować tego. 
 $$ T_p= 1,25 ms$$ 
 
-\section{Opracowanie danych}
 
-{\Large to cokolwiek pisać jeszcze ? }
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{obrazki/nbw.png}
+\end{center}
+\caption{Opóźnienie grupowe filtru Butterwortha trzeciego rzędu}
+\end{figure}
+
 
 \section{Dyskusja niepewności}
 
-Niepewności które wpływały na wyniki pochodziły głównie z odczytu danych ,,na oko z ekranu'' więc możemy z góry założyć niepewność rzędu 10\%. 
+Niepewności które wpływały na wyniki pochodziły głównie z odczytu danych ,,na oko (też linijką) z ekranu''. Dla charakterystyk opóxnienia grupowego niepewności wyznaczane metodą różniczki zupełnej były największe dla najmniejszych częstotliwości, stąd otrzyname ,,grabie'' w początkowych częściach wykresów. Z otrzymanych charakterystyk Bodego wynika również, że dla wiekszych częstotliwości tak prymitywne układy są bardzo niestabilne.  
 
 \section{Wnioski}
 
 
-Niech się dzieje za-\underline{censored}. \newline
-{\Large \textbf{A poza tym otrzymaliśmy całkiem świetne wykresy czyżby  ? }}
-
+%Niech się dzieje za-\underline{censored}. \newline
+%{\Large \textbf{A poza tym otrzymaliśmy całkiem świetne wykresy czyżby  ? }}
+\begin{itemize}
+  \item Jak można zaobserwować,  wyniki doświadczalne\underline{ potwierdziły} nasze rozważania poprzedzające laboratoria.
+  \item Nie w każdym układzie czas ustalenia był jasny do odczytu toteż nie podawaliśmy tej wartości w takich przypadkach.  
+  \item Niepewności uzysnane przez nas są bardzo duże. aby je zmniejszyć powinniśmy posługiwać się lepszym źródłem odczytu. Na przykład zapisywać dane od razu z analizatora Bodego, poprzez komputerowe przesuwanie kursora, co zaoszczędziło by niepewności związanych z linijką ekranową, jednak dane są opracowywanie po zajęciach.
+  \item Obsługa platformy git, przez którą się staraliśmy kontaktować to niebanalna sprawa.
+\end{itemize}
 \end{document}
