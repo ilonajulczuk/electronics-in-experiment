@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.10)  16 APR 2013 21:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.10)  17 APR 2013 03:10
 entering extended mode
  %&-line parsing enabled.
 **dorszzmaslowilkiem.tex
@@ -462,46 +462,62 @@ File: obrazki/belzebub1bialy.png Graphic file (type png)
 <obrazki/trzebieszow1bialy.png, id=27, 339.51843pt x 356.83313pt>
 File: obrazki/trzebieszow1bialy.png Graphic file (type png)
 
-<use obrazki/trzebieszow1bialy.png> [4 <./obrazki/belzebub1bialy.png>]
-<obrazki/batman1prostybialymod.png, id=32, 213.79875pt x 233.37187pt>
+<use obrazki/trzebieszow1bialy.png> [4 <./obrazki/belzebub1bialy.png> <./obrazk
+i/trzebieszow1bialy.png>]
+<obrazki/batman1prostybialymod.png, id=34, 213.79875pt x 233.37187pt>
 File: obrazki/batman1prostybialymod.png Graphic file (type png)
 
-<use obrazki/batman1prostybialymod.png> [5 <./obrazki/trzebieszow1bialy.png>]
-<obrazki/bezelprostybialy.png, id=37, 344.78813pt x 258.21469pt>
+<use obrazki/batman1prostybialymod.png>
+<obrazki/bezelprostybialy.png, id=35, 344.78813pt x 258.21469pt>
 File: obrazki/bezelprostybialy.png Graphic file (type png)
 
-<use obrazki/bezelprostybialy.png>
-<obrazki/tszebieszowprostzbialy.png, id=38, 347.79938pt x 257.46187pt>
+<use obrazki/bezelprostybialy.png> [5 <./obrazki/batman1prostybialymod.png> <./
+obrazki/bezelprostybialy.png>]
+<obrazki/tszebieszowprostzbialy.png, id=41, 347.79938pt x 257.46187pt>
 File: obrazki/tszebieszowprostzbialy.png Graphic file (type png)
 
-<use obrazki/tszebieszowprostzbialy.png> [6 <./obrazki/batman1prostybialymod.pn
-g> <./obrazki/bezelprostybialy.png>]
-<obrazki/maslowilkcialobialy.png, id=44, 349.305pt x 357.58594pt>
+<use obrazki/tszebieszowprostzbialy.png>
+<obrazki/maslowilkcialobialy.png, id=42, 349.305pt x 357.58594pt>
 File: obrazki/maslowilkcialobialy.png Graphic file (type png)
 
-<use obrazki/maslowilkcialobialy.png> [7 <./obrazki/tszebieszowprostzbialy.png>
-] [8 <./obrazki/maslowilkcialobialy.png>] (./dorszzmaslowilkiem.aux) ) 
+<use obrazki/maslowilkcialobialy.png> [6 <./obrazki/tszebieszowprostzbialy.png>
+]
+<obrazki/maslowilkcialoliniabialyiulepszony.png, id=47, 344.78813pt x 175.40532
+pt>
+File: obrazki/maslowilkcialoliniabialyiulepszony.png Graphic file (type png)
+ <use obrazki/maslowilkcialoliniabialyiulepszony.png>
+<obrazki/teo_przepis.png, id=48, 887.56593pt x 339.51843pt>
+File: obrazki/teo_przepis.png Graphic file (type png)
+
+<use obrazki/teo_przepis.png>
+<obrazki/maslowilkbialy.png, id=49, 346.29375pt x 258.21469pt>
+File: obrazki/maslowilkbialy.png Graphic file (type png)
+
+<use obrazki/maslowilkbialy.png> [7 <./obrazki/maslowilkcialobialy.png> <./obra
+zki/maslowilkcialoliniabialyiulepszony.png> <./obrazki/teo_przepis.png>]
+[8 <./obrazki/maslowilkbialy.png>] (./dorszzmaslowilkiem.aux) ) 
 Here is how much of TeX's memory you used:
- 2118 strings out of 495061
- 25911 string characters out of 1182620
+ 2136 strings out of 495061
+ 26451 string characters out of 1182620
  78938 words of memory out of 3000000
- 5261 multiletter control sequences out of 15000+50000
- 36706 words of font info for 33 fonts, out of 3000000 for 9000
+ 5275 multiletter control sequences out of 15000+50000
+ 39721 words of font info for 34 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,10n,43p,598b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/sha
-re/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-m
-athit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/font
-s/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb
-></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/typ
-e1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr
-/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publ
-ic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy1
-0.pfb>
-Output written on dorszzmaslowilkiem.pdf (8 pages, 250772 bytes).
+ 25i,11n,43p,598b,277s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texm
+f/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{
+/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/
+share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/publ
+ic/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/l
+mr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/texmf/fo
+nts/type1/public/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmr9.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmsy10.pfb>
+Output written on dorszzmaslowilkiem.pdf (8 pages, 334260 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

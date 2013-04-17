@@ -117,56 +117,73 @@ Poniżej przedstawiamy charakterystyki amplitudowe i fazowe trzech filtrów drug
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics{obrazki/batman1.PNG}
+\includegraphics[width=8cm]{obrazki/batman1.PNG}
 \end{center}
 \caption{filtr Butterwortha}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics{obrazki/belzebub1bialy.png}
+\includegraphics[width=8cm]{obrazki/belzebub1bialy.png}
 \end{center}
 \caption{filtr Bessela}
 \end{figure}
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics{obrazki/trzebieszow1bialy.png}
+\includegraphics[width=8cm]{obrazki/trzebieszow1bialy.png}
 \end{center}
 \caption{filtr Czebyszewa}
 \end{figure}
 
 
+\begin{LARGE}
 Przydałoby się na te odpowiedzi dłużej popatrzeć i na przykład
 pomocą systemowej linijki zmierzyć jaki jest spadek i czy wartości
 pokrywają się nam z wyliczeniami.
 
 Możemy też zasymulować te charakterystyki i pezpośrednio porównać,
 gdybyśmy wykreślili wykresy od częstotliwości.
+\end{LARGE}
 
 \section{Odpowiedzi na skok jednostkowy}
 
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics{obrazki/batman1prostybialymod.png}
+\includegraphics[width=6cm]{obrazki/batman1prostybialymod.png}
 \end{center}
 \caption{filtr Butterwortha}
 \end{figure}
 
+Wartości wyznaczone dla tych charakterystyk: 
+$$ t_r=0,6 ms  $$ 
+$$ t_p=0,33 ms $$ 
+$$ U_p= 33,3 \  \%  $$ 
+
 \begin{figure}[H]
 \begin{center}
-\includegraphics{obrazki/bezelprostybialy.png}
+\includegraphics[width=8cm]{obrazki/bezelprostybialy.png}
 \end{center}
 \caption{filtr Bessel'a}
 \end{figure}
 
+Wartości wyznaczone dla tych charakterystyk: 
+$$ t_r= 0,55 ms $$ 
+$$ t_p= 0,3 ms $$ 
+$$ U_p= 25 \  \% $$
+
 \begin{figure}[H]
 \begin{center}
-\includegraphics{obrazki/tszebieszowprostzbialy.png}
+\includegraphics[width=8cm]{obrazki/tszebieszowprostzbialy.png}
 \end{center}
 \caption{filtr Czebyszewa}
 \end{figure}
+
+Wartości wyznaczone dla tych charakterystyk: 
+$$ t_r= 0,75 ms$$ 
+$$ t_p= 0,35 ms$$ 
+$$ U_p= 28,6 \  \% $$
 
 \section{Projekt filtru}
 \subsection{Obliczenia}
@@ -177,18 +194,55 @@ Znajdują się tam wszystkie niezbędne informacje.
 
 \begin{figure}[H]
 \begin{center}
-\includegraphics{obrazki/maslowilkcialobialy.png}
+\includegraphics[width=8cm]{obrazki/maslowilkcialobialy.png}
 \end{center}
 \caption{charakterystyka amplitudowa i fazowa filtru Butterworth'a trzeciego rzędu}
 \end{figure}
 
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{obrazki/maslowilkcialoliniabialyiulepszony.png}
+\end{center}
+\caption{przeklejona charakterystyka fazowa filtru Butterworth'a trzeciego rzędu}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{obrazki/teo_przepis.png}
+\end{center}
+\caption{Krzywa narysowana w programie Gnumeric fazowa filtru Butterworth'a trzeciego rzędu }
+\end{figure}
+
+Możemy zaobserwować, że te rysunki całkiem dobrze obrazują wyliczone przez nas teoretycznie krzywe.
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=8cm]{obrazki/maslowilkbialy.png}
+\end{center}
+\caption{Odpowiedź na skok jednostowy filtru Butterworth'a trzeciego rzędu}
+\end{figure}
+
+Wartości wyznaczone dla tych charakterystyk: 
+$$ t_r= 0,47 ms$$ 
+$$ t_p= 0,24 ms$$ 
+$$ U_p= 15,7 \  \% $$
+
+Tym razem możemy też zaobserwować $T_p$. Na poprzednich odpowiedziach na skok jednostkowy nie dało się zaobserwować tego. 
+$$ T_p= 1,25 ms$$ 
+
 \section{Opracowanie danych}
 
+{\Large to cokolwiek pisać jeszcze ? }
+
 \section{Dyskusja niepewności}
+
+Niepewności które wpływały na wyniki pochodziły głównie z odczytu danych ,,na oko z ekranu'' więc możemy z góry założyć niepewność rzędu 10\%. 
 
 \section{Wnioski}
 
 
-Niech się dzieje zajebistość.
+Niech się dzieje za-\underline{censored}. \newline
+{\Large \textbf{A poza tym otrzymaliśmy całkiem świetne wykresy czyżby  ? }}
 
 \end{document}
