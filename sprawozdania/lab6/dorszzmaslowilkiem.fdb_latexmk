@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1366191953 "dorszzmaslowilkiem.tex" "dorszzmaslowilkiem.pdf" "dorszzmaslowilkiem" 
+["pdflatex"] 1366288365 "dorszzmaslowilkiem.tex" "dorszzmaslowilkiem.pdf" "dorszzmaslowilkiem" 
   "/etc/texmf/tex/latex/config/graphics.cfg" 1255993321 3328 2584cfe577535f0a08f3a9717b5152ab ""
   "/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii" 1251025892 71625 fad1c4b52151c234b6873a255b0ad6b3 ""
   "/usr/share/texmf-texlive/tex/generic/babel/babel.def" 1215520807 29228 699ca4762be67572f34cbe7344a39df8 ""
@@ -31,8 +31,8 @@
   "/usr/share/texmf/tex/latex/lm/ot1lmr.fd" 1256929440 1880 bae7b659316f7344a86218ad38b01d91 ""
   "/usr/share/texmf/tex/latex/lm/t1lmr.fd" 1256929440 1865 afbfccbe7fda9c2dc5078ad7c486bbed ""
   "charakterystyki.png" 1365895836 19302 f3a8b0704f0788b418f102efcdd803d5 ""
-  "dorszzmaslowilkiem.aux" 1366191954 3293 aae2504c0bd9ae7372237c165b92eeaa ""
-  "dorszzmaslowilkiem.tex" 1366191952 11027 2ac4bec0e20af96bbd5a8ab72436996d ""
+  "dorszzmaslowilkiem.aux" 1366288366 3293 aae2504c0bd9ae7372237c165b92eeaa ""
+  "dorszzmaslowilkiem.tex" 1366288363 11025 247463404de69304d9eb51733c94a1eb ""
   "filtry.png" 1365895791 15890 fe0a138094e3c8c87b7e913c1cc60f6d ""
   "obrazki/batman1.PNG" 1365947128 10156 418178f65151dde29600fe3cd985ea02 ""
   "obrazki/batman1prostybialymod.png" 1365947128 6526 e1d245c474151b7fbad0c10e2b9d5012 ""

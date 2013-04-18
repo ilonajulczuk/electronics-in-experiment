@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.10)  17 APR 2013 11:45
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.12.10)  18 APR 2013 14:32
 entering extended mode
  %&-line parsing enabled.
 **dorszzmaslowilkiem.tex
@@ -451,7 +451,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 File: charakterystyki.png Graphic file (type png)
 
 <use charakterystyki.png>
-Underfull \hbox (badness 10000) in paragraph at lines 109--114
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
 
  []
 
@@ -472,7 +472,7 @@ File: obrazki/trzebieszow1bialy.png Graphic file (type png)
 
 <use obrazki/trzebieszow1bialy.png> [4 <./obrazki/batman1.PNG> <./obrazki/belze
 bub1bialy.png>]
-Overfull \hbox (11.16946pt too wide) in paragraph at lines 155--156
+Overfull \hbox (11.16946pt too wide) in paragraph at lines 153--154
 \T1/lmr/m/n/10.95 wa¢. Na pod-stawie wykresów fa-zowych wykre±lil-i±my wykresy 
 opó¹nienia grupowego. Niepewno±ci
  []
@@ -521,7 +521,7 @@ zki/maslowilkcialoliniabialyiulepszony.png> <./obrazki/teo_przepis.png>]
 <obrazki/nbw.png, id=70, 991.705pt x 540.0175pt>
 File: obrazki/nbw.png Graphic file (type png)
  <use obrazki/nbw.png> [10 <./obrazki/maslowilkbialy.png> <./obrazki/nbw.png>]
-Overfull \hbox (1.2735pt too wide) in paragraph at lines 285--286
+Overfull \hbox (1.2735pt too wide) in paragraph at lines 283--284
 []\T1/lmr/m/n/10.95 Jak mo»na za-ob-ser-wowa¢, wyniki do±wiadczalne$[]$ nasze r
 ozwa»a-nia poprzedza-
  []
