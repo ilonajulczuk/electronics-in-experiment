@@ -1,0 +1,11 @@
+
+
+def main():
+	file = open("dane.txt")
+	content = file.read()
+	data = content.split("\n")[5:]
+	first_row = data[0]
+	print first_row
+
+if __name__ == "__main__":
+	main()
