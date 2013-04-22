@@ -2,3 +2,5 @@ zeby narysowac wykres napisać tylko trzeba w gnuplocie plot "output.txt"
 i on trysuje, ale tylko chyba jedną kolumnę ... 
 
 można to na 2 sopsoby ominąć... a moze wiesz o jakimś trzecim toteż nie będe mówił :P 
+
+nie wiem, dla mnie możemy to i w gnumericu rysować, może będzie tak prościej
