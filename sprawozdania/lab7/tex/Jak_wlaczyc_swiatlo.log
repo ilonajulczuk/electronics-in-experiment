@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.10)  21 APR 2013 20:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2013.4.10)  23 APR 2013 10:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,12 +486,20 @@ Overfull \hbox (11.4235pt too wide) in paragraph at lines 30--44
  [] 
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 62.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 63.
 (/usr/share/texmf-dist/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 62.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 63.
+
+<../Obrazki_i_tekst/obrobione/1asciety.png, id=1, 346.29375pt x 260.47313pt>
+File: ../Obrazki_i_tekst/obrobione/1asciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/1asciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/1asciety.png used on inpu
+t line 97.
+(pdftex.def)             Requested size: 346.2929pt x 260.47249pt.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -502,24 +510,112 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
+<../Obrazki_i_tekst/obrobione/1bsciety.png, id=15, 348.55219pt x 259.7203pt>
+File: ../Obrazki_i_tekst/obrobione/1bsciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/1bsciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/1bsciety.png used on inpu
+t line 106.
+(pdftex.def)             Requested size: 348.55132pt x 259.71967pt.
+ [2 <../Obrazki_i_tekst/obrobione/1asciety.png>]
+<../Obrazki_i_tekst/obrobione/1csciety.png, id=20, 344.78813pt x 259.7203pt>
+File: ../Obrazki_i_tekst/obrobione/1csciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/1csciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/1csciety.png used on inpu
+t line 117.
+(pdftex.def)             Requested size: 344.78728pt x 259.71967pt.
+ [3 <../Obrazki_i_tekst/obrobione/1bsciety.png>]
+<../Obrazki_i_tekst/obrobione/1dsciety.png, id=26, 344.78813pt x 257.46187pt>
+File: ../Obrazki_i_tekst/obrobione/1dsciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/1dsciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/1dsciety.png used on inpu
+t line 128.
+(pdftex.def)             Requested size: 344.78728pt x 257.46123pt.
+ [4 <../Obrazki_i_tekst/obrobione/1csciety.png>]
+<../Obrazki_i_tekst/obrobione/1esciety.png, id=31, 344.78813pt x 258.9675pt>
+File: ../Obrazki_i_tekst/obrobione/1esciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/1esciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/1esciety.png used on inpu
+t line 137.
+(pdftex.def)             Requested size: 344.78728pt x 258.96684pt.
+ [5 <../Obrazki_i_tekst/obrobione/1dsciety.png> <../Obrazki_i_tekst/obrobione/1
+esciety.png>]
+<../Obrazki_i_tekst/obrobione/2ciety.png, id=37, 346.29375pt x 258.21469pt>
+File: ../Obrazki_i_tekst/obrobione/2ciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/2ciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/2ciety.png used on input 
+line 148.
+(pdftex.def)             Requested size: 346.2929pt x 258.21405pt.
+
+<../Obrazki_i_tekst/obrobione/31asciety.png, id=38, 346.29375pt x 258.21469pt>
+File: ../Obrazki_i_tekst/obrobione/31asciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/31asciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/31asciety.png used on inp
+ut line 163.
+(pdftex.def)             Requested size: 346.2929pt x 258.21405pt.
+ [6 <../Obrazki_i_tekst/obrobione/2ciety.png>]
+<../Obrazki_i_tekst/obrobione/31bsciety.png, id=45, 345.54094pt x 258.9675pt>
+File: ../Obrazki_i_tekst/obrobione/31bsciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/31bsciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/31bsciety.png used on inp
+ut line 174.
+(pdftex.def)             Requested size: 345.54008pt x 258.96684pt.
+ [7 <../Obrazki_i_tekst/obrobione/31asciety.png> <../Obrazki_i_tekst/obrobione/
+31bsciety.png>]
+<../Obrazki_i_tekst/obrobione/31csciety.png, id=52, 344.78813pt x 259.7203pt>
+File: ../Obrazki_i_tekst/obrobione/31csciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/31csciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/31csciety.png used on inp
+ut line 185.
+(pdftex.def)             Requested size: 344.78728pt x 259.71967pt.
+
+<../Obrazki_i_tekst/obrobione/31dsciety.png, id=53, 349.305pt x 257.46187pt>
+File: ../Obrazki_i_tekst/obrobione/31dsciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/31dsciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/31dsciety.png used on inp
+ut line 196.
+(pdftex.def)             Requested size: 349.30414pt x 257.46123pt.
+ [8 <../Obrazki_i_tekst/obrobione/31csciety.png>]
+<../Obrazki_i_tekst/obrobione/31esciety.png, id=58, 345.54094pt x 257.46187pt>
+File: ../Obrazki_i_tekst/obrobione/31esciety.png Graphic file (type png)
+
+<use ../Obrazki_i_tekst/obrobione/31esciety.png>
+Package pdftex.def Info: ../Obrazki_i_tekst/obrobione/31esciety.png used on inp
+ut line 205.
+(pdftex.def)             Requested size: 345.54008pt x 257.46123pt.
+ [9 <../Obrazki_i_tekst/obrobione/31dsciety.png> <../Obrazki_i_tekst/obrobione/
+31esciety.png>] [10]
 (./Jak_wlaczyc_swiatlo.aux) ) 
 Here is how much of TeX's memory you used:
- 2640 strings out of 495063
- 34033 string characters out of 3182673
- 90899 words of memory out of 3000000
- 5764 multiletter control sequences out of 15000+200000
- 27714 words of font info for 30 fonts, out of 3000000 for 9000
+ 2703 strings out of 495063
+ 36304 string characters out of 3182673
+ 91899 words of memory out of 3000000
+ 5813 multiletter control sequences out of 15000+200000
+ 36706 words of font info for 33 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 37i,10n,43p,501b,258s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-maths
-y.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dis
-t/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/lm
-/lmr10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/share/te
-xmf-dist/fonts/type1/public/lm/lmsy10.pfb>
-Output written on Jak_wlaczyc_swiatlo.pdf (1 page, 79834 bytes).
+ 37i,10n,43p,821b,285s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.en
+c}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fo
+nts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-mat
+hit.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/share/tex
+mf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf-dist/fonts/type1/pub
+lic/lm/lmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmmi8.pfb></usr/
+share/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf-dist/fonts/t
+ype1/public/lm/lmr8.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmr9.pfb><
+/usr/share/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf-dist/f
+onts/type1/public/lm/lmsy8.pfb>
+Output written on Jak_wlaczyc_swiatlo.pdf (10 pages, 189237 bytes).
 PDF statistics:
- 26 PDF objects out of 1000 (max. 8388607)
- 18 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
