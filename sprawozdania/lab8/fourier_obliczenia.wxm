@@ -1,0 +1,51 @@
+/* [wxMaxima batch file version 1] [ DO NOT EDIT BY HAND! ]*/
+/* [ Created with wxMaxima version 11.04.0 ] */
+
+/* [wxMaxima: input   start ] */
+fpprintprec:5;
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: page break    ] */
+
+/* [wxMaxima: input   start ] */
+f(x):=16*(2*x-1)*%e^(-4*(2*x-1)^2);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+a(n):=2*romberg(f(x)*cos(2*%pi*n*x),x,0,0.5)+2*romberg(f(x)*cos(2*%pi*n*x),x,0.5,1);
+b(n):=2*romberg(f(x)*sin(2*%pi*n*x),x,0,1);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+F(x):=sum(a(n)*cos(2*%pi*n*x)+b(n)*sin(2*%pi*n*x),n,1,10);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+c(n):=sqrt(a(n)^2+b(n)^2);
+phi(n):=atan2(b(n),a(n));
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+makelist(a(n), n, 0, 10);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+makelist(b(n), n, 1, 10);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+makelist(c(n),n,1,10);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+makelist(phi(n),n,1,10);
+/* [wxMaxima: input   end   ] */
+
+/* [wxMaxima: input   start ] */
+plot2d([f(x),F(x)], [x,-2,2],[legend,"Funkcja oryginalna","10 pierwszych wyrazów z szeregu Fouriera"],
+ [plot_format, gnuplot],[gnuplot_preamble,"set key outside bottom center"],
+[gnuplot_term,pngcairo],[gnuplot_out_file,"/home/piotrek/Dokumenty/Science/EwEF/8-fourier/wykres.png"])$
+/* [wxMaxima: input   end   ] */
+
+/* Maxima can't load/batch files which end with a comment! */
+"Created with wxMaxima"$
