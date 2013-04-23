@@ -54,15 +54,6 @@
 
 
 \section{Cel ćwiczenia}
-Celem ćwiczenia było zapoznanie się z układami przełączającymi.
-
-\section{Wstęp teoretyczny}
-
-Idalnym przełącznikiem można określić takie urządzenie, podczas włączenia posiada zerową oporność, zaś podczas wyłączenia jego oporność w nieskończenie małym czasie zmienia się na nieskończoną. W układach rzeczywistych taka sytuacja nie ma miejsca. Przełączniki podczas włączenia posiadają oporność, zaś podczas wyłącznia przepływa przez nie niewielki prąd. Ponadto przełącznik posiada swoją pojemność. Stąd bierze się sporo efektów nieporządanych, które to badamy w tym doświadczeniu. W naszym doświadczeniu jako przełącznikiem posługiwaliśmy się układami: 
-
-% TU RYSUNKI DOROBIE : ) 
-
-% I LEKKI OPIS 
 
 \section{Użyty sprzęt i układy pomiarowe}
 
@@ -81,21 +72,14 @@ Software:
 \item oprogramowanie do ustalania wartości na potencjometrach cyfrowych
 \end{itemize}
 
-\section{Analiza otrzymanych wyników} 
+\section{Wstęp teoretyczny}
 
-% nastawy, stosowane elementy, obrazek, analiza wizualna sygnalu tj td tp bla bla bla
 
-% CEWKA i jej opornosci + wzory ! 
 
- 
-\section{Niepewności}
+\section{Dyskusja niepewności}
 
-% głównie cewki ... bo co innego + wzory 
+Niepewności które wpływały na wyniki pochodziły głównie z odczytu danych ,,na oko (też linijką) z ekranu''. Dla charakterystyk opóxnienia grupowego niepewności wyznaczane metodą różniczki zupełnej były największe dla najmniejszych częstotliwości, stąd otrzyname ,,grabie'' w początkowych częściach wykresów. Z otrzymanych charakterystyk Bodego wynika również, że dla wiekszych częstotliwości tak prymitywne układy są bardzo niestabilne.  
 
 \section{Wnioski}
-
-% częstotliwości graniczne 
-% uklady dobre w odpowiednich czestotliwosciach 
-% od teraz zawsze bedziem cos włączać, bądź wyłączać, bo to kochamy ! 
 
 \end{document}
