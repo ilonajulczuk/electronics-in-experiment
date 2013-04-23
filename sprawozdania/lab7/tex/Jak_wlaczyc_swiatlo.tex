@@ -70,13 +70,53 @@ Software:
 
 \end{itemize}
 
-\subsection{Układy pomiarowe}
-
 \section{Wstęp teoretyczny}
+
+Idalnym przełącznikiem można określić takie urządzenie, podczas włączenia posiada zerową oporność, zaś podczas wyłączenia jego oporność w nieskończenie małym czasie zmienia się na nieskończoną. W układach rzeczywistych taka sytuacja nie ma miejsca. Przełączniki podczas włączenia posiadają oporność, zaś podczas wyłącznia przepływa przez nie niewielki prąd. Ponadto przełącznik posiada swoją pojemność. Stąd bierze się sporo efektów nieporządanych, które to badamy w tym doświadczeniu. W naszym doświadczeniu jako przełącznikiem posługiwaliśmy się układami: 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{../Obrazki_i_tekst/obrobione/u1.png}
+    \caption{Układ 1}
+  \end{center}
+\end{figure}
+Gdzie badaliśmy dwie diody podpisane na schemacie. Dzięki otrzymanym tak przebiegom można wyznaczyć czas wyłączania 
+ $ t_{OFF} = t_1 + t_2 $  diody, a także oszacować największą częstotliwość, przy której dioda przestaje pracować jako przełącznik.  Układ pobudzamy sygnałem prostokątnym o częstotliwości $50 kHz$ i napięciu $V_{pp}=	5 V$.
+
+
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{../Obrazki_i_tekst/obrobione/u2.png}
+    \caption{Układ 2}
+  \end{center}
+\end{figure}
+Układu drugiego użyliśmy, aby badać wpływ elementów oznaczonych na kolor czerwony w naszyk układzie pobudzanym sygnałem prostokątnym. Opór $R_B$ został wyznaczony następująco: 
+
+\( V_{pp}=	3,5 V, \ f=50 kHz, \)
+\( U_c= 15 V, \ \beta  =100, \) 
+\( I_c= \frac {U_{cc}} {R_c}, \)
+\( U_{BE} = 0,7 V \) \newline
+\(  I_c=\beta \cdot I_B, \ U_{CE}=0,1 V \)
+\( R_B= \frac {E_g -U_{BE}} {I_B}  \)
+$$ R_B = \frac {3,5-0,7}{15} \cdot 330 \cdot 100 = 6160 \Omega $$
+Wybraliśmy opornik najbliższy pożądanej wartości, czyli $6k2$.
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{../Obrazki_i_tekst/obrobione/u3.png}
+    \caption{Układ 3}
+  \end{center}
+\end{figure}
+Układ trzeci pobudzamy początokowo częstotliwością $3 Hz$ i napięciem $V_{pp}=	3,5 V$. Dodatkowo do układu doprowadzamy napięcie $U_{cc} = 12 V $. Z pomiaru omomierzem otrzymujemy opór cewki $ R_L = 406 \Omega$, który posłuży do obliczenia oporu $R_B$. Poza tym drobnym szczegółem obliczneia wyglądają analogicznie.
+$$ R_B = \frac {3,5-0,7}{12} \cdot 406 \cdot 100 = 9473,3 \Omega $$
+Wybraliśmy opornik najbliższy pożądanej wartości, czyli $9k2$.
+
+
+
 
 
 \section{Opracowanie wyników}
-No więc, co nam wyszło?
+
 
 \subsection{Badanie diod jako przełączników}
 Na początku (w części pierwszej) badaliśmy układy przełączające z diodami, poniżej przedstawiamy zmierzone przebiegi dla częstotliwości 50 kHz.
