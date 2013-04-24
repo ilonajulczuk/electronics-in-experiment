@@ -62,6 +62,13 @@ Hardware:
 \begin{itemize}
 \item komputer PC
 \item Elvis II+
+\item Oporniki o odpowiednich wartościach,
+\item Multimetr METEX M3610,
+\item Tranzystor,
+\item Diody: prostownicza 1N4007 i przełączająca 1N4148
+\item Przełącznik elektromechaniczny
+\item Kondensatory: C i \(C_L\), 
+
 \end{itemize}
 
 Software:
@@ -72,7 +79,7 @@ Software:
 
 \section{Wstęp teoretyczny}
 
-Idalnym przełącznikiem można określić takie urządzenie, podczas włączenia posiada zerową oporność, zaś podczas wyłączenia jego oporność w nieskończenie małym czasie zmienia się na nieskończoną. W układach rzeczywistych taka sytuacja nie ma miejsca. Przełączniki podczas włączenia posiadają oporność, zaś podczas wyłącznia przepływa przez nie niewielki prąd. Ponadto przełącznik posiada swoją pojemność. Stąd bierze się sporo efektów nieporządanych, które to badamy w tym doświadczeniu. W naszym doświadczeniu jako przełącznikiem posługiwaliśmy się układami: 
+Idalnym przełącznikiem można określić takie urządzenie, podczas włączenia posiada zerową oporność, zaś podczas wyłączenia jego oporność w nieskończenie małym czasie zmienia się na nieskończoną. W układach rzeczywistych taka sytuacja nie ma miejsca. Przełączniki podczas włączenia posiadają oporność, zaś podczas wyłącznia przepływa przez nie niewielki prąd. Ponadto przełącznik posiada swoją pojemność. Stąd bierze się sporo efektów niepożądanych, które to badamy w tym doświadczeniu. W naszym doświadczeniu jako przełącznikiem posługiwaliśmy się układami: 
 \begin{figure} [H]
   \begin{center}
     \includegraphics[width = 10cm]{../Obrazki_i_tekst/obrobione/u1.png}
@@ -289,6 +296,8 @@ Otrzymane przebiegi przedstawiamy pod spodem:
     \caption{układ z diodą}
   \end{center}
 \end{figure}
+Tutaj spotkała nas nie lada niespodzianka. Użycie diody w układzie miało na celu poprawienie jego właściwości, ale stało się inaczej, bo właściwości przełączające się pogorszyły, bo czas przełączania się zwiększył. Wnioskujemy zatem, że dioda nie spełniała w układzie swojej funkcji (miała nie doprowadzać tranzystora do nasycenia).
+
 \begin{figure} [H]
   \begin{center}
     \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/II1zkon2ciety.png}
@@ -337,10 +346,10 @@ Na powyższym zdjęciu widać wyraźnie zakłócenia przy przełączaniu. A tak�
 % częstotliwości graniczne 
 % uklady dobre w odpowiednich czestotliwosciach 
 % od teraz zawsze bedziem cos włączać, bądź wyłączać, bo to kochamy ! 
-Nie ma idealnych włączników. Na rynku możey jedynie wybierać spośród takich, które mają większe będź mniejsze zalety, w zależmości od potrzeb. Tak oto: 
+Nie ma idealnych przełączników. Na rynku możey jedynie wybierać spośród takich, które mają większe będź mniejsze zalety, w zależmości od potrzeb. Tak oto: 
 \begin{itemize}
   \item Przełączniki diodowe i tranzystorowe przy dużych częstotliwościach tracą swoje właściwości 
-  \item Przełącznik elektromechaniczny ma bardziej strome przejścia z pozycji włączonej do wyłączonej, ale w zamian za to przy mechanicznym przełączaniu występuje spore  opóźnienie, i cość nieprzewidywalne skoki napięcia przy przekoku przełącznika. 
+  \item Przełącznik elektromechaniczny ma bardziej strome przejścia z pozycji włączonej do wyłączonej, ale w zamian za to przy mechanicznym przełączaniu występuje spore  opóźnienie, i dość nieprzewidywalne skoki napięcia przy przekoku przełącznika. 
   \item Przełącznik elektromechaniczny pracuje tylko na niskich częstotliwościach 
   \item Przełączniki diodowe i tranzystorowe zachowują się inaczej, gdy do układu dodamy inne elementu co zdecydowanie polepsza właściwości przełącznika. 
 \end{itemize}
