@@ -62,6 +62,13 @@ Hardware:
 \begin{itemize}
 \item komputer PC
 \item Elvis II+
+\item Oporniki o odpowiednich wartościach,
+\item Multimetr METEX M3610,
+\item Tranzystor,
+\item Diody: prostownicza 1N4007 i przełączająca 1N4148
+\item Przełącznik elektromechaniczny
+\item Kondensatory: C i \(C_L\), 
+
 \end{itemize}
 
 Software:
@@ -70,13 +77,61 @@ Software:
 
 \end{itemize}
 
-\subsection{Układy pomiarowe}
-
 \section{Wstęp teoretyczny}
+
+Idalnym przełącznikiem można określić takie urządzenie, podczas włączenia posiada zerową oporność, zaś podczas wyłączenia jego oporność w nieskończenie małym czasie zmienia się na nieskończoną. W układach rzeczywistych taka sytuacja nie ma miejsca. Przełączniki podczas włączenia posiadają oporność, zaś podczas wyłącznia przepływa przez nie niewielki prąd. Ponadto przełącznik posiada swoją pojemność. Stąd bierze się sporo efektów niepożądanych, które to badamy w tym doświadczeniu. W naszym doświadczeniu jako przełącznikiem posługiwaliśmy się układami: 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{../Obrazki_i_tekst/obrobione/u1.png}
+    \caption{Układ 1}
+  \end{center}
+\end{figure}
+Gdzie badaliśmy dwie diody podpisane na schemacie. Dzięki otrzymanym tak przebiegom można wyznaczyć czas wyłączania 
+ $ t_{OFF} = t_1 + t_2 $ (rysunek 3) diody, a także oszacować największą częstotliwość, przy której dioda przestaje pracować jako przełącznik.  Układ pobudzamy sygnałem prostokątnym o częstotliwości $50 kHz$ i napięciu $V_{pp}=	5 V$.
+
+
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{../Obrazki_i_tekst/obrobione/u2.png}
+    \caption{Układ 2}
+  \end{center}
+\end{figure}
+Układu drugiego użyliśmy, aby badać wpływ elementów oznaczonych na kolor czerwony w naszyk układzie pobudzanym sygnałem prostokątnym. Opór $R_B$ został wyznaczony następująco: 
+
+\( V_{pp}=	3,5 V, \ f=50 kHz, \)
+\( U_c= 15 V, \ \beta  =100, \) 
+\( I_c= \frac {U_{cc}} {R_c}, \)
+\( U_{BE} = 0,7 V \) \newline
+\(  I_c=\beta \cdot I_B, \ U_{CE}=0,1 V \)
+\( R_B= \frac {E_g -U_{BE}} {I_B}  \)
+$$ R_B = \frac {3,5-0,7}{15} \cdot 330 \cdot 100 = 6160 \Omega $$
+Wybraliśmy opornik najbliższy pożądanej wartości, czyli $6k2$.
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 10cm]{../Obrazki_i_tekst/obrobione/u3.png}
+    \caption{Układ 3}
+  \end{center}
+\end{figure}
+Układ trzeci, przełącznik elektromechaniczny, pobudzamy początokowo częstotliwością $3 Hz$ i napięciem $V_{pp}=	3,5 V$. Dodatkowo do układu doprowadzamy napięcie $U_{cc} = 12 V $. Z pomiaru omomierzem otrzymujemy opór cewki $ R_L = 406 \Omega$, który posłuży do obliczenia oporu $R_B$. Poza tym drobnym szczegółem obliczneia wyglądają analogicznie.
+$$ R_B = \frac {3,5-0,7}{12} \cdot 406 \cdot 100 = 9473,3 \Omega $$
+Wybraliśmy opornik najbliższy pożądanej wartości, czyli $9k2$.
+
+Ważnym momentem w analizie odpowiedzi układu jest zbadanie czasów zmiany sygnału czyli na przykład 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 7cm]{../Obrazki_i_tekst/obrobione/w1.png}
+    \caption{Przykładowe sygnały i zaznaczone w nich sektory interesujące}
+  \end{center}
+\end{figure}
+
+
+
 
 
 \section{Opracowanie wyników}
-No więc, co nam wyszło?
+
 
 \subsection{Badanie diod jako przełączników}
 Na początku (w części pierwszej) badaliśmy układy przełączające z diodami, poniżej przedstawiamy zmierzone przebiegi dla częstotliwości 50 kHz.
@@ -94,7 +149,7 @@ Dla diody prostowniczej:
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/1asciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/1asciety.png}
     \caption{\( E_F = U_{max}, \ E_R = 0V \)}
   \end{center}
 \end{figure}
@@ -103,7 +158,7 @@ Dla tego przypadku \( t_{off} \) praktycznie można pominąć, bo nie sposób wy
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/1bsciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/1bsciety.png}
     \caption{\( E_F = 0.5 U_{max}, \ E_R = -0.5 U_{max}\)}
   \end{center}
 \end{figure}
@@ -114,7 +169,7 @@ Gdy zmieniliśmy offset napięcia tak, że przełącznik był wyłączany napię
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/1csciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/1csciety.png}
     \caption{\( E_F = 1V, \ E_R = -4 V\)}
   \end{center}
 \end{figure}
@@ -125,7 +180,7 @@ Dalej zmieniając offset, zauważamy, że charakterystyka przebiegu się zmienia
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/1dsciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/1dsciety.png}
     \caption{\( E_F = 1V, \ E_R = -4 V\)}
   \end{center}
 \end{figure}
@@ -134,7 +189,7 @@ Dalej zmieniając offset, tak że napięcie sterujące jest mniejsze, równe 0V,
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/1esciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/1esciety.png}
     \caption{\( E_F = U_{max}, \ E_R = 0V \) z dołączonym kondensatorem \(C_L = 360 pF\)}
   \end{center}
 \end{figure}
@@ -145,7 +200,7 @@ Wszystkie poprzednie pomiary były przeprowadzone dla częstotliwości 50 kHz. N
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/2ciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/2ciety.png}
     \caption{\( E_F = U_{max}, \ E_R = 0V \) dla częstotliwości 99 kHz }
   \end{center}
 \end{figure}
@@ -160,7 +215,7 @@ Powyższy przebieg wyraźnie wskazuje, że dioda nie pracuje tu już jako przeł
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/31asciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/31asciety.png}
     \caption{\( E_F = U_{max}, \ E_R = 0V \)}
   \end{center}
 \end{figure}
@@ -171,7 +226,7 @@ Dla tego przypadku \( t_{off} \) jest stosunkowo niewielki.
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/31bsciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/31bsciety.png}
     \caption{\( E_F = 0.5 U_{max}, \ E_R = -0.5 U_{max}\)}
   \end{center}
 \end{figure}
@@ -182,7 +237,7 @@ Gdy zmieniliśmy offset napięcia tak, że przełącznik był wyłączany napię
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/31csciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/31csciety.png}
     \caption{\( E_F = 1V, \ E_R = -4 V\)}
   \end{center}
 \end{figure}
@@ -193,7 +248,7 @@ Dalej zmieniając offset, zauważamy, że zakres napięcia w którym przełącza
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/31dsciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/31dsciety.png}
     \caption{\( E_F = 1V, \ E_R = -4 V\)}
   \end{center}
 \end{figure}
@@ -202,7 +257,7 @@ Dalej zmieniając offset, tak że napięcie sterujące jest mniejsze, równe 0V,
 
 \begin{figure} [H]
   \begin{center}
-    \includegraphics{../Obrazki_i_tekst/obrobione/31esciety.png}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/31esciety.png}
     \caption{\( E_F = U_{max}, \ E_R = 0V \) z dołączonym kondensatorem \(C_L = 360 pF\)}
   \end{center}
 \end{figure}
@@ -211,9 +266,79 @@ Ten układ różni się od pierwszego z diodą impulsową jedynie dołączonym k
 
 \(t_1 = 0 \mu s,\ t_2 = 4 \mu s,\ t_{off} = 4 \mu s \).
 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/32sciety.png}
+    \caption{\( E_F = U_{max}, \ E_R = 0V \) dla częstotliwości 90 kHz }
+  \end{center}
+\end{figure}
 
-\section{Niepewności}
+Na tym przebiegu widać, że w podanej częstotliwości dioda już nie pracuje jak dobry włącznik.
+\newline
+\newline
+Następnie przystąpiliśmy do badania kluczy tranzystorowych, za pomocą układu drugiego. 
+Otrzymane przebiegi przedstawiamy pod spodem: 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/II1ciety.png}
+    \caption{Układ bez elementów dodatkowych }
+  \end{center}
+\end{figure}
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/II1zkondecprzyspciety.png}
+    \caption{Układ z kondensatorem przyspieszającym $C$}
+  \end{center}
+\end{figure}
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/II1zdiodasciety.png}
+    \caption{układ z diodą}
+  \end{center}
+\end{figure}
+Tutaj spotkała nas nie lada niespodzianka. Użycie diody w układzie miało na celu poprawienie jego właściwości, ale stało się inaczej, bo właściwości przełączające się pogorszyły, bo czas przełączania się zwiększył. Wnioskujemy zatem, że dioda nie spełniała w układzie swojej funkcji (miała nie doprowadzać tranzystora do nasycenia).
 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/II1zkon2ciety.png}
+    \caption{ Układ z kondensatorem obciążającym $C_L$ }
+  \end{center}
+\end{figure}
+
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/II1zfgranicznaciety.png}
+    \caption{ Układ działający przy częstotliwoścu granicznej z nasyconym tranzystorem }
+  \end{center}
+\end{figure}
+
+
+Następnie przystąpiliśmy do badzania układu z przełącznikiem elektromechanicznym. 
+Na początku wyznaczaliśmy oporności cewki miernikiem elektronicznym. 
+$$ R_l = 406 \Omega, \ R_z = 0,4 \Omega, \ R_r > 20 M\Omega $$ 
+
+Następnie zarejestrowaliśmy następujący przebieg napięcia: 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/IIIciety.png}
+    \caption{ Układ z przełącznikiem elektromechanicznym }
+  \end{center}
+\end{figure}
+
+Co wyglądało niepokojąco dobrze. Dopiero w powiększeniu widać było specyficzne defekty tego przełącznika: 
+\begin{figure} [H]
+  \begin{center}
+    \includegraphics[width = 9cm]{../Obrazki_i_tekst/obrobione/IIIlepsiejszeciety.png}
+    \caption{ Układ z przełącznikiem elektromechanicznym }
+  \end{center}
+\end{figure}
+
+Na powyższym zdjęciu widać wyraźnie zakłócenia przy przełączaniu. A także opóźnienie wyłącznika $t_{off}=5,5 ms$, co jest sporym opóźnieniem w stosunku do innych układow.
+
+
+
+%\section{Niepewności}
+% pomijamy, bo to nie nie pewnosci a obserwacje są waże w doswiadczeniu!!! ... łomen! : P  
 % głównie cewki ... bo co innego + wzory 
 
 \section{Wnioski}
@@ -221,6 +346,12 @@ Ten układ różni się od pierwszego z diodą impulsową jedynie dołączonym k
 % częstotliwości graniczne 
 % uklady dobre w odpowiednich czestotliwosciach 
 % od teraz zawsze bedziem cos włączać, bądź wyłączać, bo to kochamy ! 
-
+Nie ma idealnych przełączników. Na rynku możey jedynie wybierać spośród takich, które mają większe będź mniejsze zalety, w zależmości od potrzeb. Tak oto: 
+\begin{itemize}
+  \item Przełączniki diodowe i tranzystorowe przy dużych częstotliwościach tracą swoje właściwości 
+  \item Przełącznik elektromechaniczny ma bardziej strome przejścia z pozycji włączonej do wyłączonej, ale w zamian za to przy mechanicznym przełączaniu występuje spore  opóźnienie, i dość nieprzewidywalne skoki napięcia przy przekoku przełącznika. 
+  \item Przełącznik elektromechaniczny pracuje tylko na niskich częstotliwościach 
+  \item Przełączniki diodowe i tranzystorowe zachowują się inaczej, gdy do układu dodamy inne elementu co zdecydowanie polepsza właściwości przełącznika. 
+\end{itemize}
 
 \end{document}
